@@ -376,16 +376,14 @@
                                 <format>html</format>
                                 <format>xml</format>
                             </formats>
-                        </configuration>                        
-                        <execution>
-                            <goals>
-                                <goal>clean</goal>
-                                <goal>instrument</goal>
-                                <goal>check</goal>
-                                <goal>check-branch</goal>
-                                <goal>report</goal>
-                            </goals>
-                        </execution>                       
+                        </configuration>                     
+                        <goals>
+                            <goal>clean</goal>
+                            <goal>instrument</goal>
+                            <goal>check</goal>
+                            <goal>check-branch</goal>
+                            <goal>report</goal>
+                        </goals>                                           
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
