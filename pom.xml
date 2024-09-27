@@ -378,16 +378,16 @@
                             </formats>
                         </configuration>
                         <executions>
-        <execution>
-            <goals>
-                <goal>clean</goal>
-                <goal>instrument</goal>
-                <goal>check</goal>
-                <goal>check-branch</goal>
-                <goal>report</goal>
-            </goals>
-        </execution>
-    </executions>
+                            <execution>
+                                <goals>
+                                    <goal>clean</goal>
+                                    <goal>instrument</goal>
+                                    <goal>check</goal>
+                                    <goal>check-branch</goal>
+                                    <goal>report</goal>
+                                </goals>
+                            </execution>
+                        </executions>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
